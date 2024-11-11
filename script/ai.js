@@ -28,7 +28,7 @@ module.exports.run = async function({ api, event, args }) {
       return api.sendMessage("Chat history has been cleared.", event.threadID, event.messageID);
     } catch (error) {
       console.error(error);
-      return api.sendMessage('An error occurred while clearing the chat history.', event.threadID, event.messageID);
+      return api.sendMessage('𝑝𝑜𝑠𝑒 𝑡𝑎 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛 𝑗'𝑦 𝑟𝑒𝑝𝑜𝑛𝑑𝑟𝑎𝑖 𝑝𝑒𝑢𝑡-ê𝑡𝑟𝑒.', event.threadID, event.messageID);
     }
   }
 
@@ -58,6 +58,6 @@ module.exports.run = async function({ api, event, args }) {
 
   } catch (error) {
     console.error(error);
-    return api.sendMessage('An error occurred while processing your request.', event.threadID, event.messageID);
+    return api.sendMessage('𝑝𝑜𝑠𝑒 𝑡𝑎 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛 𝑗'𝑦 𝑟𝑒𝑝𝑜𝑛𝑑𝑟𝑎𝑖 𝑝𝑒𝑢𝑡-ê𝑡𝑟𝑒.', event.threadID, event.messageID);
   }
 };
